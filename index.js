@@ -219,7 +219,7 @@ client.login('ODEzNjgwOTQzNTgzMzMwMzA0.YDS1bg.0CVWT_1Tr6CL8dcP5BUT55rjp5Q')
 
 
 client.once('ready', () => {
-    client.user.setActivity('on ' + client.guilds.cache.size + ' servers | -help', { type: 'LISTENING' })
+    client.user.setActivity('on ' + client.guilds.cache.size + ' servers | -help', { type: 'PLAYING' })
 
 
 
